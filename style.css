@@ -1,3 +1,95 @@
-body {
+* {
+
+    margin: 0;
+    font-family: sans-serif;
+    border: 0cap;
+    color: white;
+}
+body{
     background-color: #1B1B32;
+}
+
+.navbar {
+    height: 56px;
+    position: relative;
+    background-color:#0A0A23;
+
+}
+
+.searchbar {
+    height: 30px;
+    width: 498px;
+    font-size: 18px;
+    margin-top: 13px;
+    margin-left: 13px;
+    border-color: #D0D0D5;
+    background-color: #3B3B4F
+
+}
+.searchbar::placeholder{
+    color: aliceblue;
+}
+
+
+.logo {
+    background-image: url(fcc.png);
+    position: absolute;
+    margin-left: 42%;
+    margin-top: -31px;
+    height: 25px;
+    width: 210px;
+    background-size: cover;
+}
+
+.menubutton {
+height: 30px;
+width: 71.5px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    margin-top: -31px;
+    margin-left: 87%;
+    border: 1.1px solid white;
+    background-color: #0A0A23;
+    color: white
+    
+}   
+.webbutton{
+    background-color: #0A0A23;
+    position: absolute;
+    height: 28px;
+    width: 31px;
+    position: absolute;
+    margin-top: -31px;
+    margin-left: 83.2%;
+}
+.web {
+
+    border: 1.1px solid white;
+
+    color: #0A0A23;
+    height: 27px;
+    width: 31px;  
+    
+}   
+.signinbutton {
+height: 30px;
+width: 81.1px;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    margin-top: -31px;
+    margin-left: 93%;
+    border: 1.2px solid #FEAC32;
+    background-color: #FEAC32;
+    color: black
+    
+}   
+.cont {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 50px;
+    font-size: 22px;
 }
